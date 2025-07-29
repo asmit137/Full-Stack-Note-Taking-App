@@ -6,15 +6,14 @@ A full-stack note-taking app built using **React + Vite + Tailwind CSS (Frontend
 - Email + OTP authentication  
 - Google Sign-In  
 - Protected Dashboard with note creation and deletion  
-- Persistent login (`Keep me logged in`)
 - Responsive design  
 
 ---
 
 ## 🔗 Live Demo
 
-**Frontend**: [https://your-frontend-url.com](https://your-frontend-url.com)  
-**Backend**: [https://your-backend-api.com](https://your-backend-api.com)
+**Frontend**: [https://your-frontend-url.com](https://full-stack-note-taking-app-six.vercel.app/)  
+**Backend**: [https://your-backend-api.com](https://full-stack-note-taking-app-xdo0.onrender.com)
 
 ---
 
@@ -60,7 +59,7 @@ A full-stack note-taking app built using **React + Vite + Tailwind CSS (Frontend
 
 ```bash
 git clone https://github.com/your-username/hd-notes-app.git
-cd hd-notes-app
+cd Full-Stack-Note-Taking-App
 ```
 
 ---
@@ -68,7 +67,7 @@ cd hd-notes-app
 ### 2. Frontend Setup
 
 ```bash
-cd client
+cd frontend
 npm install
 npm run dev
 ```
@@ -84,7 +83,7 @@ VITE_API_URL=https://your-backend-api.com
 ### 3. Backend Setup
 
 ```bash
-cd server
+cd backend
 npm install
 npm run dev
 ```
@@ -149,12 +148,10 @@ If using GitHub Pages:
 ## ✅ Todo / Future Features
 
 - [ ] Edit Notes
-- [ ] Dark Mode
-- [ ] Tagging & Filtering Notes
 - [ ] Email provider integration for OTP
 
 ---
 
 ## 📄 License
 
-MIT License © [Your Name]
+MIT License © [Asmit Sanjay Gawande]
