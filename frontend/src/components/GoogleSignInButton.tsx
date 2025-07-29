@@ -11,12 +11,13 @@ const GoogleSignInButton = () => {
       window.location.href = "/dashboard";
     };
     return (
+     
       <button
-        className="w-full border py-2 rounded cursor-pointer hover:bg-gray-100"
-        onClick={handleGoogleLogin}
-      >
-        Sign in with Google
-      </button>
+      onClick={handleGoogleLogin}
+      className="w-full max-w-[343px] md:max-w-[399px] h-[54px] bg-blue-600 text-white text-sm rounded-[10px] hover:bg-blue-700"
+    >
+      Sign in with Google
+    </button>
     );
   };
   export default GoogleSignInButton;
